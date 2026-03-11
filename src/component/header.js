@@ -1,3 +1,4 @@
+import './header.css';
 import logo from '../img/insang_biseo_logo.svg';
 
 export default function Header() {

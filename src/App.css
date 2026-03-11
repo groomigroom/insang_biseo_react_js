@@ -4,13 +4,6 @@
   height: 300vh;
 }
 
-.app_logo {
-  height: 40vmin;
-  pointer-events: none;
-  animation: App-logo-spin infinite 40s linear;
-}
-
-
 .App-header {
   min-height: 100vh;
   display: flex;
@@ -25,20 +18,4 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  25% {
-    transform: rotate(30deg);
-  }
-  50%{
-    transform: rotate(0deg);
-  }
-  75%{
-    transform: rotate(-30deg);
-  }
-  100%{
-    transform: rotate(0deg);
-  }
-}
+
