@@ -1,8 +1,10 @@
 .App {
   background-color: #f7f7f7;
+  width: 100vw;
+  height: 300vh;
 }
 
-.App-logo {
+.app_logo {
   height: 40vmin;
   pointer-events: none;
   animation: App-logo-spin infinite 40s linear;
