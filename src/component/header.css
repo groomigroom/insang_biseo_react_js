@@ -1,4 +1,7 @@
+
+
 .app_logo {
+  /*사이즈 수정하기*/
   height: 40vmin;
   pointer-events: none;
   animation: App-logo-spin infinite 40s linear;
