@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './img/insang_biseo_logo.svg';
 import './App.css';
 
 function App() {
