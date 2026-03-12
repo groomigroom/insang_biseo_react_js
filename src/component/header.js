@@ -12,7 +12,12 @@ export default function Header() {
                 <div>
                     <img src={logo} alt='로고' className='app_logo' />
                 </div>
-                <div onClick={showName}></div>
+                <div>
+                    <div onClick={showName}></div>
+                    <div onClick={() => {
+                        console.log(300);
+                    }}></div>
+                </div>
             </header>
         </>
     );
