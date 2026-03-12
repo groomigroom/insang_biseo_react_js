@@ -1,3 +1,4 @@
+import './section.css';
 import Pp from './section_pp';
 
 export default function Section() {
