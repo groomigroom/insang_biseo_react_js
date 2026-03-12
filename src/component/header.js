@@ -5,7 +5,9 @@ export default function Header() {
     return (
         <>
             <header className="app_header">
-                <object data={logo} type='image/svg+xml' aria-label='로고' className='app_logo'></object>
+                <div>
+                    <img src={logo} alt='로고' className='app_logo' />
+                </div>
             </header>
         </>
     );
