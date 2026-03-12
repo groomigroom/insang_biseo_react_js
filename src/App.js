@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './component/header';
+import Section_part from './component/section';
 
 function App() {
   return (
