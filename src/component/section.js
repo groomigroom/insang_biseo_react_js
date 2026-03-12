@@ -1,10 +1,10 @@
-import pp from './section_pp';
+import Pp from './section_pp';
 
 export default function Section() {
     return (
         <>
             <section className="app_section">
-                <pp />
+                <Pp />
             </section>
         </>
     );
