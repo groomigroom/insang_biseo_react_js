@@ -4,18 +4,22 @@
   box-sizing: border-box;
 }
 
-/* .app_header{
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-
 .app_header{
   width: 100vw;
   height: 100vh;
   position: relative;
+}
+
+.app_header>div:nth-child(1){
+  position: absolute;
+  width: 830px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .app_logo {
