@@ -6,6 +6,10 @@ export default function Header() {
         console.log("groom");
     }
 
+    function showChange() {
+        console.log(txt);
+    }
+
     return (
         <>
             <header className="app_header">
@@ -17,6 +21,10 @@ export default function Header() {
                     <div onClick={() => {
                         console.log(300);
                     }}></div>
+                    <input type='text' onChange={e => {
+                        const txt = e.target.value;
+                        showChange(txt);
+                    }}></input>
                 </div>
             </header>
         </>
