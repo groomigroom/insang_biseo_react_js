@@ -21,13 +21,12 @@ export default function Header() {
                     <div onClick={() => {
                         console.log(300);
                     }}></div>
-                    <div>
-                        <input type='text' onChange={e => {
-                            const txt = e.target.value;
-                            showChange(txt);
-                        }}></input>
-                    </div>
+
                 </div>
+                <input type='text' onChange={e => {
+                    const txt = e.target.value;
+                    showChange(txt);
+                }}></input>
             </header>
         </>
     );

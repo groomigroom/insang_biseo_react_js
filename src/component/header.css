@@ -58,11 +58,22 @@
 }
 
 .app_header>div:nth-child(2)>div {
-  
-  transform: translateX(-50%);
   width: 50px;
   height: 50px;
   border-radius: 10px;
   background-color: #333333;
   cursor: pointer;
+}
+
+.app_header>input{
+  position: absolute;
+  bottom: 10vh;
+  left: 50%;
+  transform: translateX(-50%);
+  outline: none;
+  width: 200px;
+  height: 40px;
+  border: 3px solid #333333;
+  border-radius: 5px;
+  font-size: 20px;
 }
