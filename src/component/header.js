@@ -6,7 +6,7 @@ export default function Header() {
         console.log("groom");
     }
 
-    function showChange() {
+    function showChange(txt) {
         console.log(txt);
     }
 
@@ -21,10 +21,12 @@ export default function Header() {
                     <div onClick={() => {
                         console.log(300);
                     }}></div>
-                    <input type='text' onChange={e => {
-                        const txt = e.target.value;
-                        showChange(txt);
-                    }}></input>
+                    <div>
+                        <input type='text' onChange={e => {
+                            const txt = e.target.value;
+                            showChange(txt);
+                        }}></input>
+                    </div>
                 </div>
             </header>
         </>
