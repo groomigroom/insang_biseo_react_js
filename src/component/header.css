@@ -46,21 +46,20 @@
   }
 }
 
-.app_header>div:nth-child(2) {
+.app_header>div:nth-child(2){
   position: absolute;
   bottom: 25vh;
   left: 50%;
   transform: translateX(-50%);
-  width: 50px;
+  width: 170px;
   height: 50px;
-  border-radius: 10px;
-  background-color: #333333;
-  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
 }
 
-.app_header>div:nth-child(3) {
-  position: absolute;
-  bottom: 25vh;
+.app_header>div:nth-child(2)>div {
+  
+  transform: translateX(-50%);
   width: 50px;
   height: 50px;
   border-radius: 10px;
