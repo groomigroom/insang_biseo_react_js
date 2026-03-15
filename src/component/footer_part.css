@@ -76,3 +76,9 @@
     align-items: center;
 }
 
+.footer_part>button{
+    width: 200px;
+    height: 50px;
+
+}
+
