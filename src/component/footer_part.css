@@ -84,8 +84,13 @@
     border-radius: 5px;
     font-size: 20px;
     letter-spacing: -0.02em;
-    font-weight: 500;
+    font-weight: 800;
     color: #2b2b2b;
     background-color: #ebebeb;
     cursor: pointer;
+}
+
+.footer_part>button:hover {
+    color: #ebebeb;
+    background-color: #2b2b2b;
 }
