@@ -4,7 +4,7 @@ export default function Section_pp() {
     return (
         <>
             <p className='app_pp'>
-                내용이 들어갑니다.
+                우리를 도와주는 인상비서
             </p>
         </>
     );
